@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+}
+
+.caixa-texto1{
+    width: 200px;
+    border: 1px solid red;
+    padding: 10px; 
+}
+
+.caixa-texto2{
+    width: 200px;
+    border: 1px solid red;
+    padding: 10px;
+    float: left;
+}
+
+.caixa-texto3{
+    width: 200px;
+    border: 1px solid red;
+    padding: 10px;
+    float: left; 
+}

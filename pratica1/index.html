@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+
+    <!--CSS interno-->
+    <style>
+       body{
+            margin-left: 50px;
+            background-color: rgb(241, 234, 212);
+        }
+
+        #titulo-main{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo-main">Formatação de texto no HTML5</h1>
+    <h2>Tags semânticas</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet alias itaque magnam vero, voluptatibus nihil ipsa maiores voluptate architecto illum necessitatibus, dignissimos rerum modi sit cumque, maxime dolorem quam.</p>
+    
+    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure maiores autem omnis maxime molestias praesentium vitae eaque provident tempora deleniti magni necessitatibus, et dolorum quia sapiente cupiditate obcaecati, saepe quod!</strong></p>
+
+    <p><em>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, consequatur! Quae, ducimus pariatur ipsa voluptate, quos qui commodi corrupti, molestiae reprehenderit veritatis quis ut dicta odit excepturi officia sed iste.</em></p>
+
+    <p><del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos culpa expedita, eaque illum labore rem earum quaerat animi similique voluptates magni neque molestiae rerum sapiente voluptatibus dignissimos aperiam in.</del></p>
+
+    <p><u>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda sequi dolorem enim, nemo autem nesciunt nihil modi a aspernatur sapiente tempore voluptatum accusamus voluptas doloremque animi, beatae voluptatibus aliquam repellendus!</u></p>
+
+    <!---->
+    <hr>
+    <br>
+
+    <h1>Listas não ordenadas <em>(ul)</em></h1>
+    <h3>Lista de filmes</h3>
+
+    <!--Tipos de lista: disc, circle, square-->
+    <ul type="square">
+        <li>Velozes e Furiosos</li>
+        <li>Piratas do Caribe</li>
+    </ul>
+
+    
+    <h1>Listas ordenadas <em>ol</em></h1>
+    <h3>Lista de filmes</h3>
+
+    <!--Tipos de lista: 1, A, a, I, i-->
+    <ol type="A">
+        <li>Velozes e Furiosos</li>
+        <li>Piratas do Caribe</li>
+    </ol>
+
+    <h3>Imagem</h3>
+    <hr>
+
+    <img src="img/html.jpg" alt="exemplificando HTML5" height="300">
+
+    <br>
+    <h2>Links</h2>
+
+    <a href="https://br.freepik.com/search?dates=any&demographic=any-people&format=search&page=1&query=html&selection=1&sort=popular" target="_blank">Freepik imagem</a>
+    <br><br>
+
+    <h3>Ancoragem</h3>
+    <!--para fazer ancoragem coloque o nome dp ID de uma tag-->
+    <a href="#titulo-main">Título inicial</a>
+
+    <br>
+    <h2>Tabelas</h2>
+
+    <!--não se usa tag estilização no HTML, isso é com o CSS. Aqui é uma exemplificação-->
+    <table border="1" width="70%">
+        <!--criar linha-->
+        <tr>
+            <!--criar cabeçalho da tabela-->
+            <th>Código produto</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+        </tr>
+
+        <tr>
+            <!--valores dos campos-->
+            <td>01</td>
+            <td>Batata</td>
+            <td>10,00</td>
+        </tr>
+
+        <tr>
+            <!--valores dos campos-->
+            <td>02</td>
+            <td>Arroz</td>
+            <td>15,00</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Promoção</td>
+            <td colspan="2">Desconto 10%</td>
+        </tr>
+
+        <tr>
+            <td>Totais</td>
+            <td>8,00</td>
+        </tr>
+    </table>
+
+</body>
+</html>

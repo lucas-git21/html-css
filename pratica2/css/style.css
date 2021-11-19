@@ -1,0 +1,25 @@
+body {
+    margin-left: 50px;
+    background-color: rgb(241, 234, 212);
+}
+
+#titulo{
+    font-size: x-large;
+    color: crimson;
+}
+
+.azul{
+    color: cyan;
+}
+
+p{
+    color: darkblue;
+}
+
+.verde{
+    color: darkgreen;
+}
+
+.vermelho{
+    color: red;
+}
